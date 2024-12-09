@@ -1,8 +1,8 @@
 .header {
   display: flex;
-  justify-content: space-between; /* Κάνει το header να έχει χώρο ανάμεσα στα στοιχεία */
-  align-items: center; /* Κεντράρει τα στοιχεία κατακόρυφα */
-  padding: 30px; /* Προαιρετικό: προσθέτει padding γύρω από το header */
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 30px; 
   margin-top: 20%;
 }
 
@@ -12,8 +12,8 @@
   padding: 20px;
   align-items: center;
   color: #000000;
-  margin-top: 15%;/* Αφήνει κενό κάτω από το navbar */
-  padding: 0%; /* Padding γύρω από το περιεχόμενο */
+  margin-top: 15%;
+  padding: 0%;
 }
 
 .date-picker {
