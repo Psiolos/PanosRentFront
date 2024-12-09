@@ -11,10 +11,10 @@ function Contact() {
 
     if (form.current) {
       emailjs.sendForm(
-        'service_lw53yrq', // Edw to Service ID
-        'template_ljinoog', // Edw to template ID
+        ' ', // Edw to Service ID
+        ' ', // Edw to template ID
         form.current,
-        'xl0Imzr_VwqM8CGrL' //Edw to user id public
+        ' ' //Edw to user id public
       )
       .then((result) => {
           console.log(result.text);
