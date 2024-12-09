@@ -139,35 +139,35 @@
 
 @media (max-width: 768px) {
   .car-results {
-    grid-template-columns: repeat(2, 1fr); /* 2 στήλες για tablets */
+    grid-template-columns: repeat(2, 1fr); 
   }
 }
 
-/* Responsive styling for mobile devices */
+
 @media (max-width: 480px) {
   .car-search {
     padding-top: 30%;
-    margin-top: 0%; /* Αφήνει κενό κάτω από το navbar */
+    margin-top: 0%; 
   }
 
   .date-picker {
-    padding-top: 40px; /* Αύξηση padding top για κινητές συσκευές */
+    padding-top: 40px; 
   }
 
   .car-results {
-    grid-template-columns: 1fr; /* 1 στήλη για κινητά */
+    grid-template-columns: 1fr; 
   }
   
   .car-title {
-    font-size: 1rem; /* Μικρότερο μέγεθος για τίτλους */
+    font-size: 1rem; 
   }
 
   .car-group {
-    font-size: 0.8rem; /* Μικρότερο μέγεθος για την ομάδα */
+    font-size: 0.8rem; 
   }
 
   .book-btn {
-    padding: 8px 16px; /* Πιο μικρό padding για το κουμπί */
+    padding: 8px 16px; 
   }
 
   
