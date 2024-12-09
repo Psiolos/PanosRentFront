@@ -1,17 +1,17 @@
 .header {
     display: flex;
-    flex-direction: column; /* Κάνει το header να έχει κατακόρυφη διάταξη */
-    align-items: flex-start; /* Ευθυγραμμίζει τα στοιχεία στην αριστερή πλευρά */
-    padding: 10px; /* Προαιρετικό: προσθέτει padding γύρω από το header */
+    flex-direction: column; 
+    align-items: flex-start;
+    padding: 10px; 
   }
   
   .sorting {
-    margin-top: 10px; /* Προαιρετικό: προσθέτει περιθώριο πάνω από το sorting */
-    align-self: flex-end; /* Ευθυγραμμίζει το sorting δεξιά */
+    margin-top: 10px; 
+    align-self: flex-end; 
   }
   
   .sorting label {
-    margin-right: 5px; /* Προσθέτει περιθώριο δεξιά στο label */
+    margin-right: 5px; 
   }
 
 .car-search {
@@ -20,26 +20,26 @@
     padding: 20px;
     align-items: center;
     color: #000000;
-    margin-top: 10%;/* Αφήνει κενό κάτω από το navbar */
-    padding: 0%; /* Padding γύρω από το περιεχόμενο */
+    margin-top: 10%;
+    padding: 0%;
   }
   
   .sorting {
-    margin-top: 10px; /* Προαιρετικό: προσθέτει περιθώριο πάνω από το sorting */
-    align-self: flex-end; /* Ευθυγραμμίζει το sorting δεξιά */
+    margin-top: 10px;
+    align-self: flex-end; 
   }
   
   .sorting label {
-    margin-right: 5px; /* Προσθέτει περιθώριο δεξιά στο label */
+    margin-right: 5px;
   }
 
   .filters {
-    margin-top: 10px; /* Προαιρετικό: προσθέτει περιθώριο πάνω από το sorting */
-    align-self: flex-end; /* Ευθυγραμμίζει το sorting δεξιά */
+    margin-top: 10px; 
+    align-self: flex-end;
   }
   
   .filters label {
-    margin-right: 5px; /* Προσθέτει περιθώριο δεξιά στο label */
+    margin-right: 5px; 
   }
 
 
@@ -73,8 +73,7 @@
   .car-results {
     display: grid;
     color: black;
-    grid-template-columns: repeat(3, 1fr); /* 3 στήλες για υπολογιστές */
-    gap: 20px;
+    grid-template-columns: repeat(3, 1fr); 
   }
   
   .car-box {
@@ -100,8 +99,8 @@
   }
 
   .highlight {
-    color: red; /* Κάνει το ferrari κόκκινο */
-    font-weight: bold; /* Προαιρετικό: τονίζει το ferrari */
+    color: red; 
+    font-weight: bold; 
   }
   
   
@@ -153,37 +152,37 @@
     background-color: #0056b3;
   }
   
-  /* Responsive styling for tablets */
+ 
   @media (max-width: 768px) {
     .car-results {
-      grid-template-columns: repeat(2, 1fr); /* 2 στήλες για tablets */
+      grid-template-columns: repeat(2, 1fr); 
     }
   }
   
-  /* Responsive styling for mobile devices */
+  
   @media (max-width: 480px) {
     .car-search {
-      padding-top: 100px; /* Αφήνει κενό κάτω από το navbar */
+      padding-top: 100px; 
     }
   
     .date-picker {
-      padding-top: 40px; /* Αύξηση padding top για κινητές συσκευές */
+      padding-top: 40px; 
     }
   
     .car-results {
-      grid-template-columns: 1fr; /* 1 στήλη για κινητά */
+      grid-template-columns: 1fr; 
     }
     
     .car-title {
-      font-size: 1rem; /* Μικρότερο μέγεθος για τίτλους */
+      font-size: 1rem; 
     }
   
     .car-group {
-      font-size: 0.8rem; /* Μικρότερο μέγεθος για την ομάδα */
+      font-size: 0.8rem; 
     }
   
     .book-btn {
-      padding: 8px 16px; /* Πιο μικρό padding για το κουμπί */
+      padding: 8px 16px; 
     }
   
     
