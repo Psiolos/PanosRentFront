@@ -1,0 +1,35 @@
+.not-found-page {
+    text-align: center;
+    margin-top: 15%;
+    padding: 50px;
+    color: #333;
+  }
+  
+  .not-found-page h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+  }
+  
+  .not-found-page p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .back-button {
+    background-color: #2662fa;
+    color: white;
+    padding: 1.5rem 3rem;
+    border-radius: 3px;
+    font-size: 1.4rem;
+    box-shadow: 0 10px 15px 0 rgba(4, 0, 255, 0.35);
+    transition: all 0.3s;
+    margin: 1rem;
+    flex: 1 1 calc(33% - 2rem); 
+  }
+  
+  .back-button:hover {
+    box-shadow: 0 10px 15px 0 rgba(4, 0, 255, 0.35);
+    font-size: 1.7rem;
+    background-color: #ffffff;
+    color: #2662fa;
+  }

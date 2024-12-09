@@ -1,0 +1,29 @@
+/* CarReservations.css */
+.reservation-list-container {
+    margin: 20px;
+  }
+  
+  .reservation-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .reservation-table th,
+  .reservation-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .reservation-table th {
+    background-color: #333;
+    color: white;
+  }
+  
+  .reservation-table tr:nth-child(even) {
+    background-color: #f0f0f0;
+  }
+  
+  .reservation-table tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
+  

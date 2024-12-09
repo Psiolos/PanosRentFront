@@ -1,0 +1,191 @@
+.header {
+    display: flex;
+    flex-direction: column; /* Κάνει το header να έχει κατακόρυφη διάταξη */
+    align-items: flex-start; /* Ευθυγραμμίζει τα στοιχεία στην αριστερή πλευρά */
+    padding: 10px; /* Προαιρετικό: προσθέτει padding γύρω από το header */
+  }
+  
+  .sorting {
+    margin-top: 10px; /* Προαιρετικό: προσθέτει περιθώριο πάνω από το sorting */
+    align-self: flex-end; /* Ευθυγραμμίζει το sorting δεξιά */
+  }
+  
+  .sorting label {
+    margin-right: 5px; /* Προσθέτει περιθώριο δεξιά στο label */
+  }
+
+.car-search {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+    align-items: center;
+    color: #000000;
+    margin-top: 10%;/* Αφήνει κενό κάτω από το navbar */
+    padding: 0%; /* Padding γύρω από το περιεχόμενο */
+  }
+  
+  .sorting {
+    margin-top: 10px; /* Προαιρετικό: προσθέτει περιθώριο πάνω από το sorting */
+    align-self: flex-end; /* Ευθυγραμμίζει το sorting δεξιά */
+  }
+  
+  .sorting label {
+    margin-right: 5px; /* Προσθέτει περιθώριο δεξιά στο label */
+  }
+
+  .filters {
+    margin-top: 10px; /* Προαιρετικό: προσθέτει περιθώριο πάνω από το sorting */
+    align-self: flex-end; /* Ευθυγραμμίζει το sorting δεξιά */
+  }
+  
+  .filters label {
+    margin-right: 5px; /* Προσθέτει περιθώριο δεξιά στο label */
+  }
+
+
+  
+  .date-picker {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    font-size: 1.4rem;
+  }
+  
+  .date-search-button {
+    color: #ffffff;
+    background-color: #2662fa;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  .date-search-button:hover {
+    background-color: #2662fa;
+    color: #ffffff;
+    box-shadow: #007bff;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 1rem;
+  }
+  
+  .car-results {
+    display: grid;
+    color: black;
+    grid-template-columns: repeat(3, 1fr); /* 3 στήλες για υπολογιστές */
+    gap: 20px;
+  }
+  
+  .car-box {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .car-header {
+    padding: 15px;
+    background-color: #f7f7f7;
+  }
+
+  .car-headerheader.h2{
+    align-items: center;
+    color: green;
+  }
+  .car-header.span{
+    color: red;
+  }
+
+  .highlight {
+    color: red; /* Κάνει το ferrari κόκκινο */
+    font-weight: bold; /* Προαιρετικό: τονίζει το ferrari */
+  }
+  
+  
+  .car-title {
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .car-group {
+    font-size: 1.5rem;
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  .car-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+  }
+  
+  .car-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .car-info {
+    text-align: center;
+    font-size: 1.3rem;
+  }
+  
+  .book-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .book-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive styling for tablets */
+  @media (max-width: 768px) {
+    .car-results {
+      grid-template-columns: repeat(2, 1fr); /* 2 στήλες για tablets */
+    }
+  }
+  
+  /* Responsive styling for mobile devices */
+  @media (max-width: 480px) {
+    .car-search {
+      padding-top: 100px; /* Αφήνει κενό κάτω από το navbar */
+    }
+  
+    .date-picker {
+      padding-top: 40px; /* Αύξηση padding top για κινητές συσκευές */
+    }
+  
+    .car-results {
+      grid-template-columns: 1fr; /* 1 στήλη για κινητά */
+    }
+    
+    .car-title {
+      font-size: 1rem; /* Μικρότερο μέγεθος για τίτλους */
+    }
+  
+    .car-group {
+      font-size: 0.8rem; /* Μικρότερο μέγεθος για την ομάδα */
+    }
+  
+    .book-btn {
+      padding: 8px 16px; /* Πιο μικρό padding για το κουμπί */
+    }
+  
+    
+  }
+  

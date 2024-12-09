@@ -1,0 +1,22 @@
+
+.available-cars {
+    margin-top: 20px;
+}
+
+.car-list {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+.car-item {
+    background-color: #000000;
+    border: 1px solid #a92e2e; 
+    border-radius: 5px;
+    margin: 10px 0; 
+    padding: 10px; 
+    transition: background-color 0.3s; 
+}
+
+.car-item:hover {
+    background-color: #684e4e; 
+} 

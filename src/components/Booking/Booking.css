@@ -1,0 +1,347 @@
+.booking-page {
+  display: flex;
+  justify-content: space-between;
+  padding: 120px;
+}
+
+.booking-form {
+  flex: 1;
+  max-width: 500px;
+  margin-right: 20px;
+  font-size: 1rem;
+  color: black;
+}
+
+.booking-form h1 {
+  margin-bottom: 20px;
+}
+
+.booking-form div {
+  margin-bottom: 15px;
+}
+
+.booking-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.booking-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  color: black;
+  border-radius: 5px;
+  background-color: rgb(210, 210, 210);
+}
+
+.total-cost {
+  margin: 20px 0;
+  font-size: 1.5rem;
+}
+
+.car-box {
+  flex: 1;
+  max-width: 500px;
+  max-height: 400px;
+}
+
+.car-header {
+  margin-bottom: 10px;
+}
+
+.car-title {
+  font-size: 1.5rem;
+  color: black;
+  margin: 0;
+}
+
+.car-group {
+  color: #666;
+}
+
+.car-details {
+  display: flex;
+  color: black;
+}
+
+.car-image {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.car-image img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.car-info {
+  flex: 1;
+  display: flex;
+  color: black;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.extra-service-box {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: rgb(240, 240, 240);
+  margin-top: 20px;
+}
+
+.extra-service-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.extra-service-option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.extra-service-option label {
+  margin-left: 10px;
+  color: black;
+}
+
+.s-booking-extras__items {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.b-extra {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  transition: border .2s;
+  width: 100%;
+}
+
+.b-extra__aside img {
+  width: 50px;
+  height: auto;
+}
+
+.b-extra__main {
+  flex: 0 1 auto; 
+  max-width: 70%;  
+  word-wrap: break-word;  
+}
+
+.b-extra__title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.b-extra__summary {
+  font-size: 1.1rem;
+  color: #181818;
+  white-space: normal; 
+  word-wrap: break-word;  
+}
+
+
+.extra-service-checkbox {
+  position: relative;
+  display: inline-block;
+  width: 7em;  
+  height: 3em; 
+  background: #000000;
+  border-radius: 50px;
+  border: 1px solid #dddddd; 
+  cursor: pointer;
+}
+
+
+.extra-service-checkbox-input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+
+.extra-service-checkbox label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #af4c4c;
+  border-radius: 50px;
+  transition: background-color 0.3s ease;
+}
+
+
+.extra-service-checkbox label:before {
+  content: '';
+  position: absolute;
+  top: 0.2em;
+  left: 0.25em;
+  width: 1.4em; 
+  height: 1.4em; 
+  border-radius: 50%;
+  background: white;
+  transition: transform 0.3s ease;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3); 
+}
+
+.extra-service-checkbox-input:checked + label:before {
+  transform: translateX(2.5em); 
+}
+
+
+.extra-service-checkbox-input:checked + label {
+  background: #88cf8f;
+}
+
+.date-container {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 5px; 
+  background-color: #f9f9f9; 
+  border: 1px solid #ddd; 
+  border-radius: 5px; 
+  margin-bottom: 5px; 
+}
+
+
+.date-item {
+  display: flex;
+  flex-direction: column; 
+  text-align: left;
+}
+
+.date-label {
+  font-size: 14px; 
+  color: #666; 
+  margin: 0; 
+}
+
+.date-value {
+  font-size: 16px; 
+  color: #333; 
+  font-weight: bold; 
+  margin: 0; 
+}
+
+
+
+.total-cost-updated {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.rent-button {
+  background-color: #2662fa;
+  color: white;
+  padding: 1.5rem 3rem;
+  border-radius: 3px;
+  font-size: 1.4rem;
+  box-shadow: 0 10px 15px 0 rgba(4, 0, 255, 0.35);
+  transition: all 0.3s;
+  margin: 1rem;
+}
+
+.rent-button:hover {
+  box-shadow: 0 10px 15px 0 rgba(4, 0, 255, 0.35);
+  font-size: 1.7rem;
+  background-color: #ffffff;
+  color: #2662fa;
+}
+
+
+
+@media (max-width: 768px) {
+  .booking-page {
+    margin-top: 20%;
+    flex-direction: column; 
+    padding: 20px; 
+  }
+
+  .booking-form {
+    max-width: 100%; 
+    margin-right: 0; 
+    margin-bottom: 20px; 
+  }
+
+  .car-box {
+    max-width: 100%; 
+    max-height: auto;
+  }
+
+  .car-image img {
+    height: auto;
+
+  }
+
+  .extra-service-box {
+    padding: 5px;
+  }
+
+  .b-extra {
+    flex-direction: column; 
+    align-items: flex; 
+  }
+
+  .b-extra__aside img {
+    width: 100%; 
+    height: auto; 
+  }
+
+  .b-extra__main {
+    max-width: 100%; 
+  }
+
+  .rent-button {
+    padding: 1rem 2rem; 
+    font-size: 1.2rem; 
+  }
+
+  .rent-button:hover {
+    font-size: 1.4rem; 
+  }
+
+  .date-container {
+    flex-direction: column; 
+    align-items: flex-start;
+  }
+
+  .date-item {
+    margin-bottom: 10px; 
+  }
+
+  .total-cost-updated {
+    font-size: 1.2rem; 
+  }
+
+  .extra-service-checkbox {
+    width: 6em; 
+    height: 2.5em; 
+  }
+
+  .extra-service-checkbox label:before {
+    width: 1.2em; 
+    height: 1.2em;
+  }
+
+  .extra-service-checkbox-input:checked + label:before {
+    transform: translateX(2em); 
+  }
+}

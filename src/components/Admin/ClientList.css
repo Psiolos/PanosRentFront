@@ -1,0 +1,64 @@
+.client-list-container {
+    font-family: Arial, sans-serif;
+    color: #000000;
+    margin: 20px;
+    padding: 20px;
+    background: #000000;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 15%;
+  }
+
+  .client-list-container h1{
+    color: black;
+  }
+  
+  .input-field {
+    margin: 10px 5px;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .search-button, .filter-button, .reset-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background 0.3s, transform 0.2s;
+  }
+  
+  .search-button:hover, .filter-button:hover, .reset-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .car-details, .filter-section {
+    margin-top: 20px;
+  }
+  
+  .reservation-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .reservation-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .reservation-item:hover {
+    background: #f0f8ff;
+  }
+  

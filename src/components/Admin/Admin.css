@@ -1,0 +1,43 @@
+.admin-page {
+    padding: 2rem;
+    text-align: center;
+    padding-top: 10%;
+  }
+  
+  .admin-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .admin-button {
+    background-color: #2662fa;
+    color: white;
+    padding: 1.5rem 3rem;
+    border-radius: 3px;
+    font-size: 1.4rem;
+    box-shadow: 0 10px 15px 0 rgba(4, 0, 255, 0.35);
+    transition: all 0.3s;
+    margin: 1rem;
+    flex: 1 1 calc(33% - 2rem); /* 3 koympia sto desktop kai apo katw 1 sto mobile */
+  }
+  
+  .admin-button:hover {
+    box-shadow: 0 10px 15px 0 rgba(4, 0, 255, 0.35);
+    font-size: 1.7rem;
+    background-color: #ffffff;
+    color: #2662fa;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .admin-button {
+      flex: 1 1 100%; 
+    }
+  }

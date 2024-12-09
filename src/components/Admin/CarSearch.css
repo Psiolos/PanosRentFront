@@ -1,0 +1,88 @@
+.car-search-container {
+  max-width: 800px;
+  color: black;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 15%;
+  border-radius: 10px;
+  background-color: #acb5c9;
+}
+
+.car-details-container {
+  margin-top: 20px;
+  padding: 50px;
+  background-color: #e0e0e0;
+  border-radius: 20px;
+  font-size: 1rem;
+}
+
+.car-search-button {
+  background-color: #2662fa;
+  color: white;
+  padding: 0.9rem 4rem;
+  border-radius: 3px;
+  font-size: 1.4rem;
+  box-shadow: 0 10px 15px 0 rgba(4, 0, 255, 0.35);
+  transition: all 0.3s;
+  margin: 1rem;
+  flex: 1 1 calc(33% - 2rem);
+}
+
+.car-search-button:hover {
+  box-shadow: 0 10px 15px 0 rgba(4, 0, 255, 0.35);
+  font-size: 1.7rem;
+  background-color: #ffffff;
+  color: #2662fa;
+}
+
+.error-message {
+  color: red;
+}
+
+.status-confirmed {
+  color: green;
+  font-weight: bold;
+}
+
+.status-cancelled {
+  color: red;
+  font-weight: bold;
+}
+
+.cancel-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.cancel-button:hover {
+  background-color: darkred;
+}
+
+.filter-button {
+  background-color: #2662fa;
+  color: white;
+  padding: 0.9rem 4rem;
+  border-radius: 3px;
+  font-size: 1.4rem;
+  margin: 1rem;
+  flex: 1 1 calc(33% - 2rem);
+}
+
+.filter-button:hover{
+  box-shadow: 0 10px 15px 0 rgba(4, 0, 255, 0.35);
+  font-size: 1.7rem;
+  background-color: #ffffff;
+  color: #2662fa;
+}
+
+.date-picker-input {
+  padding: 0.5rem;
+}
+
+.date-picker-input:hover {
+  background-color: #e0e0e0;
+}

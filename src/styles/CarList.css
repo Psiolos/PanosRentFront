@@ -1,0 +1,106 @@
+.car-list-container {
+    padding: 20px;
+    background-color: #e6e6e6;
+    color: black;
+    margin-top: 15%;
+  }
+  
+  .car-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .car-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    background-color: #ffffff;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .car-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    background-color: #ffffff;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .car-item:hover{
+    background-color: #d7d7d7;
+    border: black;
+  }
+
+  .car-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .btn-delete {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  .btn-delete:hover {
+    background-color: darkred;
+  }
+  
+  .btn-toggle-availability {
+    color: #ffffff;
+  background-color: #2662fa;
+  cursor: pointer;
+  transition: all 0.3s; /* Blue */
+  }
+  
+  .btn-add-availability {
+    color: #ffffff;
+  background-color: #2662fa;
+  cursor: pointer;
+  transition: all 0.3s; /* Green */
+  }
+  
+  .btn-show-rentals {
+    color: #ffffff;
+    background-color: #2662fa;
+    cursor: pointer;
+    transition: all 0.3s;  /* Orange */
+  }
+  
+  .btn-change-price {
+    color: #ffffff;
+  background-color: #2662fa;
+  cursor: pointer;
+  transition: all 0.3s; /* Purple */
+  }
+  
+  .confirm-delete {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .confirm-delete button {
+    margin-right: 10px;
+  }
+  
+
+  
+  

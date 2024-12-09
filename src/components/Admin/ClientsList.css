@@ -1,0 +1,59 @@
+.client-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 15%;
+}
+
+.client-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.client-item {
+    background-color: #aeaeae;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.client-info {
+    display: flex;
+    color: black;
+    flex-direction: column;
+}
+
+.client-info span {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.client-actions {
+    display: flex;
+    align-items: center;
+}
+
+.viewrent-button {
+    background-color: #2662fa;
+    padding: 1.5rem 2.5rem;
+    border-radius: 0.3rem;
+    box-shadow: 0 10px 15px 0 rgba(4, 0, 255, 0.35);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.3s;
+    border: 2px solid #2662fa;
+}
+
+.viewrent-button:hover {
+    color: #2662fa;
+    box-shadow: 0 10px 15px 0 rgba(4, 0, 255, 0.35);
+    background-color: #ffffff;
+}
